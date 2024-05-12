@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online TODO App</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Enter into the form below to add tasks to your TODO list</h2>
+        </section>
+        <div>
+            <form action="" class="entry">
+                <label for="todo" class="entry">Todo List Task Entry</label>
+                    <input type="text" id="todo" name="todo" placeholder="Enter TODO task">
+                    
+            </form>
+            <button id="addTask" class="button">Add to List</button>
+        </div>
+        <section>
+            <h2>Below is the Task List</h2>
+                <p>To mark an item as completed, click on the task.</p>
+                <p class="last-p">To remove from the list, click the COMPLETED button</p>
+            <ul id="taskList">
+
+            </ul>
+        </section>
+    </main>
+    
+    <section class="jsScript">
+        <script src="app.js"></script>
+        <!--<script src="/Solution/todo-solution.js"></script>-->
+    </section>
+</body>
+</html>
+
+
+
+
+<!--
+<main>
+    <section id="form">
+        <input type="text" placeholder="Add Friend" id="firstName">    
+        <button id="add_button">Add Friend</button>
+    </section>
+    <section>
+        <ul id="friendList">
+            <li>Lea <button>UnFriend</button></li>
+            <li>Jake <button>UnFriend</button></li>
+            <li>Tom <button>UnFriend</button></li>
+            <li class="best-friend"><span>&hearts;</span> Selena<button>UnFriend</button></li>-->

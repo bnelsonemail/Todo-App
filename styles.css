@@ -1,0 +1,74 @@
+html {
+    font-size: 1vw;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 400;
+}
+
+body {
+    background-color: rgb(6, 6, 6);
+    padding: 20px;
+    
+    margin: 50px;
+}
+
+label.entry {
+    color: white;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+    padding-left: 100px;
+   
+}
+
+p.last-p {
+    margin-bottom: 3rem;
+}
+
+li {
+    color:white;
+    font-size: 3.2rem;
+    padding: 1rem;
+}
+
+main section ul li button  {
+    background-color: red;
+    padding: .8rem;
+    margin-left: 1.2rem;
+    border-radius: 20px;
+}
+
+main section ul li button:hover {
+    background-color: rgb(216, 12, 234);
+    box-shadow: 5px 10px 18px rgb(25, 156, 47);
+    transition: .6s;
+}
+
+main div button {
+    background-color: red;
+    font-size: 1.5rem;
+    padding: .8rem;
+    margin: .3rem;
+    border-radius: 20px;
+}
+
+main div button:hover {
+    background-color: rgb(12, 178, 234);
+    box-shadow: 5px 10px 18px red;
+    transition: .6s;
+
+}
